@@ -15,72 +15,81 @@
 
   <body>
     <div class="page">
+      <div class="page"></div>
       <header class="header">
         <ul class="header_list">
-          <li class="header_list_item">INTRODUCCIÓN Y CONTACTO</li>
-          <li class="header_list_item">HABILIDADES TÉCNICAS</li>
-          <li class="header_list_item">Proyectos Destacados</li>
-          <li class="header_list_item">Logros Profesionales Relevantes</li>
+          <li class="header_list_item">
+            <a class="header_list_link" href="#aboutme">Contacto</a>
+          </li>
+          <li class="header_list_item">
+            <a class="header_list_link" href="#projects">Proyectos</a>
+          </li>
+          <li class="header_list_item">
+            <a class="header_list_link" href="#experience">Experiencia</a>
+          </li>
         </ul>
       </header>
       <!-- 1. SECCIÓN DE INTRODUCCIÓN Y CONTACTO -->
       <section id="aboutme" class="aboutme">
-        <h1 class="aboutme_name">Luis Fernando Martínez Santos</h1>
-        <!-- Título de LinkedIn Optimizado -->
-        <p class="aboutme_position">
-          Ingeniero Mecatrónico y Desarrollador Web Frontend Jr.
-        </p>
+        <img
+          class="aboutme_name"
+          src="./images/Luis-Fernando-Mart-nez-Santos-6-12-2025.png"
+        />
+        <div class="aboutme_info">
+          <p class="aboutme_position">
+            Ingeniero Mecatrónico y Desarrollador Web Frontend Jr.
+          </p>
 
-        <p class="aboutme_description">
-          Enfocado en <strong>React.js y JavaScript (ES6+)</strong> para
-          interfaces de alto rendimiento. Mi base como ingeniero me permite
-          especializarme en la
-          <strong>optimización de sistemas y procesos </strong>a través de
-          soluciones web eficientes.
-        </p>
+          <p class="aboutme_description">
+            Un ingeniero mecatronico diseñando web?.. en la entrevista te lo
+            explico <br />Enfocado en
+            <strong>React.js y JavaScript (ES6+)</strong> para interfaces de
+            alto rendimiento. Mi base como ingeniero me permite especializarme
+            en la <strong>optimización de sistemas y procesos </strong>a través
+            de soluciones web eficientes.
+          </p>
 
-        <!-- ENLACES DE CONTACTO -->
+          <!-- ENLACES DE CONTACTO -->
 
-        <ul class="aboutme_links">
-          <li class="aboutme_links_list">
-            <a class="aboutme_links_list-gmail">luisfernandomswx@gmail.com</a>
-          </li>
-          <li class="aboutme_links_list">
-            <a class="aboutme_links_list-celnumber">7121803294</a>
-          </li>
-          <li class="aboutme_links_list">
-            <a class="aboutme_links_list-linkedin">LinkedIn</a>
-          </li>
-          <li class="aboutme_links_list">
-            <a class="aboutme_links_list-git">GitHub</a>
-          </li>
-        </ul>
+          <ul class="aboutme_links">
+            <li class="aboutme_links_list">
+              <a class="aboutme_links_list-gmail">luisfernandomswx@gmail.com</a>
+            </li>
+            <li class="aboutme_links_list">
+              <a class="aboutme_links_list-celnumber">7121803294</a>
+            </li>
+            <li class="aboutme_links_list">
+              <a class="aboutme_links_list-linkedin">LinkedIn</a>
+            </li>
+            <li class="aboutme_links_list">
+              <a class="aboutme_links_list-git">GitHub</a>
+            </li>
+          </ul>
+        </div>
       </section>
 
-      <!-- 2. HABILIDADES TÉCNICAS (STACK) -->
-      <section id="skils" class="skils">
-        <h2 class="skils_title">Habilidades Técnicas</h2>
-        <ul class="skils_list">
-          <li class="skils_list-item">React.js</li>
-          <li class="skils_list-item">JavaScript (ES6+)</li>
-          <li class="skils_list-item">HTML5</li>
-          <li class="skils_list-item">CSS3</li>
-          <li class="skils_list-item">APIs REST</li>
-          <li class="skils_list-item">Git & GitHub</li>
-          <li class="skils_list-item">MySQL</li>
-        </ul>
-      </section>
-
-      <!-- 3. PROYECTOS DESTACADOS -->
+      <!-- 2. PROYECTOS DESTACADOS -->
       <section id="projects" class="projects">
-        <h2 class="projects_title">Proyectos Destacados</h2>
+        <div class="projects_skils">
+          <ul class="skils">
+            <li class="skils_item">React.js</li>
+            <li class="skils_item">JavaScript (ES6+)</li>
+            <li class="skils_item">HTML5</li>
+            <li class="skils_item">CSS3</li>
+            <li class="skils_item">APIs REST</li>
+            <li class="skils_item">Git & GitHub</li>
+            <li class="skils_item">MySQL</li>
+          </ul>
+          <h2 class="projects_title">Proyectos Destacados</h2>
+        </div>
+
         <ul class="projects_list">
           <!-- proyecto 1 -->
           <li class="project">
-            <h2 class="project_title">Web_project_around</h2>
-            <h3 class="project_little-description">
+            <h2 class="project_title">Around</h2>
+            <p class="project_little-description">
               Plataforma Social Responsiva
-            </h3>
+            </p>
             <p class="project_description">
               Maquetación de una página web social siguiendo principios de
               diseño responsivo, accesibilidad y buenas prácticas de semántica
@@ -94,10 +103,10 @@
           </li>
           <!-- proyecto 2 -->
           <li class="project">
-            <h2 class="project_title">web_project_coffeeshop</h2>
-            <h3 class="project_little-description">
+            <h2 class="project_title">Coffeeshop</h2>
+            <p class="project_little-description">
               Plataforma de una cafeteria
-            </h3>
+            </p>
             <p class="project_description">
               Maquetación de una página web de un establecimiento siguiendo
               principios de diseño responsivo, accesibilidad y buenas prácticas
@@ -112,9 +121,9 @@
           <!-- proyecto 3 -->
           <li class="project">
             <h2 class="project_title">Portafolio Wicho</h2>
-            <h3 class="project_little-description">
+            <p class="project_little-description">
               Portafolio desarrollador web
-            </h3>
+            </p>
             <p class="project_description">
               Maquetación de una página web de un portafolio de desarrollador
               web donde se uncluyen trabajos destacados e informacion destacada
@@ -127,6 +136,13 @@
           </li>
         </ul>
       </section>
+      <!-- 3. frase -->
+      <div class="phrase">
+        <h2 class="phrase_item">"Trabaja</h2>
+        <h2 class="phrase_item">inteligentemente,</h2>
+        <h2 class="phrase_item">no más</h2>
+        <h2 class="phrase_item">duro"</h2>
+      </div>
 
       <!-- 4. EXPERIENCIA Y LOGROS CLAVE -->
       <section id="experience" class="experience">
@@ -139,7 +155,7 @@
               Optimización de Procesos Productivos
             </h2>
             <p class="experience_item_date">(2021-2023)</p>
-            <h3 class="experience_item_company">Truper</h3>
+            <p class="experience_item_company">Truper</p>
             <p class="experience_item_description">
               Desarrollo de interfaces y software utilizando **JavaScript, HTML
               y CSS** para la creación de un sistema de recolección de datos y
@@ -154,7 +170,7 @@
               Gestión Integral Web y de Clientes
             </h2>
             <p class="experience_item_date">(2023-2025)</p>
-            <h3 class="experience_item_company">SIP Ingeniería</h3>
+            <p class="experience_item_company">SIP Ingeniería</p>
             <p class="experience_item_description">
               Responsable del **desarrollo y mantenimiento de la página web
               corporativa**. Gestión de la plataforma en línea para la

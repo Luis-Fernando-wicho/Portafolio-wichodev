@@ -1,6 +1,9 @@
 .page {
   max-width: 1600px;
   background-color: rgb(255, 255, 255);
+  background-image: url("../images/vecteezy_indigo-blue-watercolor-hand-painting-and-splash-abstract_22915577.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 }
 @media screen and (min-width: 320px) and (max-width: 1600px) {
 }

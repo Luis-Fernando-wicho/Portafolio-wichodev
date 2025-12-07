@@ -1,17 +1,12 @@
 .skils {
   display: flex;
-  flex-direction: column;
   align-items: center;
   padding: 0px clamp(7px, 5vw, 37px);
   text-align: center;
-}
-.skils_title {
-}
-.skils_list {
   list-style-type: none;
-  padding: 0%;
-  display: flex;
-  font-size: clamp(9px, 2vw, 70px);
+  border-radius: 10px;
+  border: 3px solid hsl(0, 0%, 100%, 0.7);
+  box-shadow: inset 0 0 8px 1px hsl(0, 0%, 100%, 0.9);
 }
 .skils_list-item {
   margin: 0px 7px;
