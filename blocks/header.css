@@ -2,14 +2,14 @@
   display: flex;
   justify-content: space-around;
   position: sticky;
-  top: 11px;
+  top: 5vw;
   left: 0;
   animation: animation-header linear both;
   animation-timeline: scroll(root block);
   animation-range: 100px 200px;
   z-index: 9;
   width: 60vw;
-  height: auto;
+  height: 5vw;
 }
 
 .header_list {
