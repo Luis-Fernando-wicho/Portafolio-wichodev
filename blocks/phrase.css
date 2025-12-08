@@ -4,7 +4,7 @@
 .phrase_item {
   display: flex;
   justify-content: center;
-  font-size: 200px;
+  font-size: 15vw;
   text-align: center;
   animation: autoblur linear both;
   animation-timeline: view();
