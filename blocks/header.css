@@ -6,7 +6,7 @@
   left: 0;
   animation: animation-header linear both;
   animation-timeline: scroll(root block);
-  animation-range: 100px 200px;
+  animation-range: 0px 200px;
   z-index: 9;
   width: clamp(25dvh, 45vw, 90dvh);
   height: clamp(4dvh, 6vw, 10dvh);
